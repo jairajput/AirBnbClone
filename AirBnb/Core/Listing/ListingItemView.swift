@@ -32,6 +32,7 @@ struct ListingItemView: View {
                 VStack(alignment: .leading){
                     Text("Miami Florida")
                         .fontWeight(.semibold)
+                        .foregroundStyle(.black)
                     Text("12 mi away")
                         .foregroundStyle(.gray)
                     Text("Nov 3 - Nov 20")
@@ -41,12 +42,16 @@ struct ListingItemView: View {
                             .fontWeight(.semibold)
                         Text("Night")
                     }
+                    .foregroundStyle(.black)
+
                 }
                 Spacer()
                 HStack{
                     Image(systemName: "star.fill")
                     Text("4.8")
                 }
+                .foregroundStyle(.black)
+
             }
             .font(.footnote)
         }/*.padding()*/

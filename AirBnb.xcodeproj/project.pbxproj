@@ -13,6 +13,8 @@
 		D8C100DF2C52CD8800515364 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C100DE2C52CD8800515364 /* Preview Assets.xcassets */; };
 		D8C100F22C53790D00515364 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C100F12C53790D00515364 /* ExploreView.swift */; };
 		D8C100F42C537A1C00515364 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C100F32C537A1C00515364 /* ListingItemView.swift */; };
+		D8C100F62C53823100515364 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C100F52C53823100515364 /* SearchBarView.swift */; };
+		D8C101192C54267400515364 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C101182C54267400515364 /* ListingDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		D8C100DE2C52CD8800515364 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8C100F12C53790D00515364 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		D8C100F32C537A1C00515364 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		D8C100F52C53823100515364 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		D8C101182C54267400515364 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				D8C100F12C53790D00515364 /* ExploreView.swift */,
+				D8C100F52C53823100515364 /* SearchBarView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D8C100F32C537A1C00515364 /* ListingItemView.swift */,
+				D8C101182C54267400515364 /* ListingDetailView.swift */,
 			);
 			path = Listing;
 			sourceTree = "<group>";
@@ -239,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C100F62C53823100515364 /* SearchBarView.swift in Sources */,
 				D8C100F42C537A1C00515364 /* ListingItemView.swift in Sources */,
 				D8C100DA2C52CD8600515364 /* ContentView.swift in Sources */,
 				D8C100F22C53790D00515364 /* ExploreView.swift in Sources */,
+				D8C101192C54267400515364 /* ListingDetailView.swift in Sources */,
 				D8C100D82C52CD8600515364 /* AirBnbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
